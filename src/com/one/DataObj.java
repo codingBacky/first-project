@@ -7,7 +7,7 @@ public class DataObj {
 	public char data2 = 'A';
 	@Override
 	public int hashCode() {
-		return Objects.hash(data1);//data1만 값이 같으면
+		return Objects.hash(data1, data2);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -18,7 +18,7 @@ public class DataObj {
 		if (getClass() != obj.getClass())
 			return false;
 		DataObj other = (DataObj) obj;
-		return data1 == other.data1;
+		return data1 == other.data1;//data1만 값이 같으면
 	}
 	
 	/*

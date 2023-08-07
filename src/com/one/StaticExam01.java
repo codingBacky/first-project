@@ -12,9 +12,11 @@ public class StaticExam01 {//클래스에는 붙일 수 없다.
 		System.out.println(bbb);
 		System.out.println(aaa);
 	}
+	/*
 	public static void amaa() {//이 메서드는 new에 의해 객체가 생성되기 전에 메모리에 만들어짐, 오류
 		System.out.println(bbb);
 	}
+	*/
 }
 class ExamA{
 	public void aExam() {
